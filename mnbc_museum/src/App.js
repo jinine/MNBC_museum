@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useRef, useState } from 'react';
 import { Canvas, useFrame } from 'react-three-fiber';
-import {softShadows, MeshWobbleMaterial, OrbitControls} from '@react-three/drei';
-import {useSpring, animated} from '@react-spring/three';
+import { softShadows, MeshWobbleMaterial, OrbitControls, useGLTF } from '@react-three/drei';
+import { useSpring, animated } from '@react-spring/three';
 
 softShadows();
 
@@ -17,6 +17,11 @@ const SpinningMesh = ( { position, args, color, speed }) =>{
   const props = useSpring({
     scale: expand ? [1.6,1.6,1.6] : [1,1,1],
   });
+
+  // const loader = new useGLTF();
+  // loader.load('assets/artifact/scene.gltf', function(gltf){
+  //   console.log(gltf)
+  // });
 
   return(
     <animated.mesh 
@@ -50,6 +55,7 @@ function App() {
       <pointLight position={ [-10, 0,-20] } intensity={.5}/>
       <pointLight position={ [0, -10, 0] } intensity={1.5}/>
 
+     
       <group>
         <mesh 
         receiveShadow 
@@ -61,7 +67,9 @@ function App() {
         <SpinningMesh position = { [0, 1, 0] } args={[3,2,1]} color='lightblue' speed={2}/>
         <SpinningMesh position = { [-2, 1, -5] } color='pink'  speed={6} />
         <SpinningMesh position = { [5, 1, -2] } color='pink'  speed={6}/>
-      </group>
+       
+      </group> 
+
      
       <OrbitControls />
     </Canvas>

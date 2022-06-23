@@ -1,0 +1,11 @@
+Model Information:
+* title:	Lapidarium Room 5 Artifact 3
+* source:	https://sketchfab.com/3d-models/lapidarium-room-5-artifact-3-d2028cc7be524fa3b1803dae3bb6e99a
+* author:	ARCHAEOPTIC (https://sketchfab.com/archaeoptic)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Lapidarium Room 5 Artifact 3" (https://sketchfab.com/3d-models/lapidarium-room-5-artifact-3-d2028cc7be524fa3b1803dae3bb6e99a) by ARCHAEOPTIC (https://sketchfab.com/archaeoptic) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
